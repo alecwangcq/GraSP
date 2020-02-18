@@ -17,7 +17,7 @@ pip install easydict
 # Dataset
 1. Download tiny imagenet from "https://tiny-imagenet.herokuapp.com", and place it in ../data/tiny_imagenet.
    Please make sure there will be two folders, `train` and `val`,  under the directory of `../data/tiny_imagenet`.
-   In either `train` or `val`, there will be 200 folders storing the images of each category.  <b>Or</b> You can also download the processed data from [here]( https://drive.google.com/file/d/1juoN5cRVa8I1TsfFMtsCec2Wy_0z646K/view?usp=sharing )
+   In either `train` or `val`, there will be 200 folders storing the images of each category.  <b>Or</b> You can also download the processed data from [here]( https://drive.google.com/file/d/1juoN5cRVa8I1TsfFMtsCec2Wy_0z646K/view?usp=sharing ).
    
 2. For cifar datasets, it will be automatically downloaded.
 
