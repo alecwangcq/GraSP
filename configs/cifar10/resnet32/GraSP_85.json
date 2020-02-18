@@ -1,0 +1,17 @@
+{
+  "exp_name": "cifar10_resnet32_GraSP_prune_ratio_85",
+  "network": "resnet",
+  "depth": 32,
+  "dataset": "cifar10",
+  "batch_size": 128,
+  "epoch": "160",
+  "learning_rate": "0.1",
+  "weight_decay": "1e-4",
+  "exception": "-1",
+  "iterations": 1,
+  "normalize": false,
+  "target_ratio": 0.85,
+  "pruner": "GraSP",
+  "pruner_file": "GraSP",
+  "samples_per_class": 10
+}

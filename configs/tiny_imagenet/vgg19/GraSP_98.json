@@ -1,0 +1,18 @@
+{
+  "exp_name": "tiny_imagenet_vgg19_GraSP_prune_ratio_98",
+  "network": "vgg",
+  "depth": 19,
+  "dataset": "tiny_imagenet",
+  "batch_size": 128,
+  "epoch": "300",
+  "learning_rate": "0.1",
+  "weight_decay": "5e-4",
+  "exception": "-1",
+  "iterations": 1,
+  "normalize": false,
+  "target_ratio": 0.98,
+  "pruner": "GraSP",
+  "pruner_file": "GraSP",
+  "samples_per_class": 1,
+  "num_iters": 10
+}

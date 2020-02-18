@@ -1,0 +1,18 @@
+{
+  "exp_name": "tiny_imagenet_resnet32_GraSP_prune_ratio_95",
+  "network": "resnet",
+  "depth": 32,
+  "dataset": "tiny_imagenet",
+  "batch_size": 128,
+  "epoch": "300",
+  "learning_rate": "0.1",
+  "weight_decay": "1e-4",
+  "exception": "-1",
+  "iterations": 1,
+  "normalize": false,
+  "target_ratio": 0.95,
+  "pruner": "GraSP",
+  "pruner_file": "GraSP",
+  "samples_per_class": 1,
+  "num_iters": 10
+}
